@@ -44,8 +44,11 @@
 </template>
 
 <script>
-import { db } from "@/plugins/GCP";
-import firebase from "firebase";
+// import { db } from "@/plugins/GCP";
+import firebase from "@/plugins/firebase"
+// import firebase from "firebase";
+
+const db = firebase.firestore()
 
 export default {
   name: "App",

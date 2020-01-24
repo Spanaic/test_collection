@@ -15,21 +15,21 @@ Vue.use(Vuetify);
 
 Vue.config.productionTip = false;
 
-firebase.initializeApp({
-    apiKey: "AIzaSyA2HIFew5tebslN2sZomWKhU41XNKEpSvA",
-    authDomain: "test-collection-b78ee.firebaseapp.com",
-    databaseURL: "https://test-collection-b78ee.firebaseio.com",
-    projectId: "test-collection-b78ee",
-    storageBucket: "test-collection-b78ee.appspot.com",
-    messagingSenderId: "95572509572",
-    appId: "1:95572509572:web:327f0541779147546313d1"
-});
+// firebase.initializeApp({
+//     apiKey: "AIzaSyA2HIFew5tebslN2sZomWKhU41XNKEpSvA",
+//     authDomain: "test-collection-b78ee.firebaseapp.com",
+//     databaseURL: "https://test-collection-b78ee.firebaseio.com",
+//     projectId: "test-collection-b78ee",
+//     storageBucket: "test-collection-b78ee.appspot.com",
+//     messagingSenderId: "95572509572",
+//     appId: "1:95572509572:web:327f0541779147546313d1"
+// });
 
-const firestore = firebase.firestore();
-const settings = { /* your settings... */ timestampsInSnapshots: true };
-firestore.settings(settings);
+// const firestore = firebase.firestore();
+// const settings = { /* your settings... */ timestampsInSnapshots: true };
+// firestore.settings(settings);
 
-export const db = firebase.firestore();
+// export const db = firebase.firestore();
 // const vuetifyOptions = {};
 
 // /* eslint-disable no-new */

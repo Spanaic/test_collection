@@ -30,7 +30,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/GCP'
+    '@/plugins/GCP',
+    '@/plugins/firebase'
   ],
   /*
   ** Nuxt.js dev-modules
