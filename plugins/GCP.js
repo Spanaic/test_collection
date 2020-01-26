@@ -5,12 +5,12 @@ import Vue from "vue";
 import Vuetify from "vuetify";
 import "vuetify/dist/vuetify.css";
 // import VueFire from "vuefire";
-import firebase from "firebase";
+// import firebase from "firebase";
 //import "firebase/firestore";
 //Vue.use(VueFire);
-import { firestorePlugin } from "vuefire";
+// import { firestorePlugin } from "vuefire";
 
-Vue.use(firestorePlugin);
+// Vue.use(firestorePlugin);
 Vue.use(Vuetify);
 
 Vue.config.productionTip = false;

@@ -45,10 +45,10 @@
 
 <script>
 // import { db } from "@/plugins/GCP";
-import firebase from "@/plugins/firebase"
+import firebase from "@/plugins/firebase";
 // import firebase from "firebase";
 
-const db = firebase.firestore()
+const db = firebase.firestore();
 
 export default {
   name: "App",
@@ -66,7 +66,7 @@ export default {
   },
   created() {
     this.getImages();
-    const bucketName = "test-collection-b78ee.appspot.com";
+    const bucketName = process.env.STORAGE_BUCKET;
     var docRef = db.collection("images");
     var imgUrls = [];
     docRef
@@ -154,7 +154,7 @@ export default {
       mountainsRef.put(this.imageFile).then(snapshot => {
         snapshot.ref.getDownloadURL().then(downloadURL => {
           this.imageUrl = downloadURL;
-          const bucketName = "test-collection-b78ee.appspot.com";
+          const bucketName = process.env.STORAGE_BUCKET;
           const filePath = this.imageName;
           db.collection("images").add({
             downloadURL,
