@@ -19,6 +19,7 @@
 </template>
 
 <script>
+// FIXME:未完成
 import axios from "axios";
 import AWS from "aws-sdk";
 // import Progress from "@/components/atoms/Progress";
