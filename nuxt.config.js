@@ -47,7 +47,13 @@ export default {
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
+    '@nuxtjs/pwa',
   ],
+  manifest: {
+
+    name: "test-collection's page",
+    lang: 'ja',
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options

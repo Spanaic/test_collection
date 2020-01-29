@@ -9,3 +9,12 @@
 
 (Creating a Pinterest style image gallery in Vue
 )[https://medium.com/swlh/creating-a-pinterest-style-image-gallery-in-vue-927836b7d173]
+
+# github認証のやりかた
+
+(github認証)[https://blog.katsubemakito.net/firebase/firebase-authentication-github-web1]
+
+firebaseの公式リファレンス
+
+(github authのdisplayNameが取れないのはfirebaseのバグ)[http://ja.voidcc.com/question/p-xaiavhtp-gt.html]
+
